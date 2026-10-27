@@ -113,3 +113,5 @@ ODM_MANIFEST_NP_FILES := \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/rtwo/rtwo-vendor.mk)
+
+$(call inherit-product, vendor/lindroid/lindroid.mk)
